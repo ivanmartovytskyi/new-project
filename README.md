@@ -32,6 +32,8 @@
 10. Check status:
 > git status
  
-11. Upload changes to repository:
-> git push
+11. Add remote repository:
+> git remote add origin git@github.com:<yourname>/new-project.git
 
+12. Upload changes to repository:
+> git push --set-upstream origin main

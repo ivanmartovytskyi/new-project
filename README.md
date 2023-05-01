@@ -23,10 +23,12 @@
 
 8. Add instructions to README.md and commit changes:
 > nano README.md
+
 > git commit -am "changed README.md"
 
 9. Add changes from "development" to "main":
 > git checkout main
+
 > git merge development
 
 10. Check status:
